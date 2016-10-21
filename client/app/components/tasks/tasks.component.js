@@ -56,7 +56,6 @@ var TasksComponent = (function () {
         this.taskService.toggleTask(_task)
             .subscribe(function (data) {
             task.isDone = !task.isDone;
-            console.log(task);
         });
     };
     TasksComponent = __decorate([

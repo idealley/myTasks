@@ -60,7 +60,6 @@ export class TasksComponent {
         this.taskService.toggleTask(_task)
             .subscribe(data => {
                 task.isDone = !task.isDone;
-                console.log(task);
             });
     }
 }
